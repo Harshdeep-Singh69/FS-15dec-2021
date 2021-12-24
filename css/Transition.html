@@ -1,0 +1,35 @@
+<!--
+Transition:Changing from one state to another
+transition-property:The property on which you want to apply the transition
+transition-duration: the total time for the transition
+transition-timing-property:the pace of our transition
+transition-delay:used to add a delay on our transition
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 150px;
+			background-color: blue;
+			transition: width 6s ease 2s  ;
+			/*transition-property: width;
+			transition-duration: 6s;
+			transition-delay: 2s;
+			transition-timing-function: ease-in-out ;*/
+		}
+		div:hover{
+			background-color: yellow;
+			width: 800px;
+
+		}
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div></div>
+
+</body>
+</html>
