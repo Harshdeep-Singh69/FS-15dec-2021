@@ -1,0 +1,67 @@
+<!--
+display:
+1-inline-block
+2-block
+3-none
+4-flex
+5-list-items
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#aa{
+			width: 500px;
+			height: 400px;
+			border: 2px solid red;
+		}
+		#bb{
+			width: 200px;
+			height: 100px;
+			background-color: blueviolet;
+			display: inline-block;
+		}
+		#cc{
+			width: 250px;
+			height: 100px;
+			background-color: hotpink;
+			display: inline-block;
+		}
+		#paraDiv{
+			width: 500px;
+			border: 2px solid black;
+		}
+		span{
+			color: blue;
+			background-color: yellow;
+			display: none;
+		}
+		ul{
+			border: 1px solid red;	
+			display: flex;
+		}
+		li{
+			border: 1px solid blue;
+			/*display: inline-block;*/
+		}
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<ul type="none">
+		<li>ABC</li>
+		<li>xyz</li>
+		<li>PQ</li>
+	</ul>
+	<div id="aa">
+		<div id="bb"></div>
+		<div id="cc"></div>
+	</div>
+	<div id="paraDiv">
+		Hello everyone <span> how are you? </span> I am fine ...... Enjoy!!
+	</div>
+
+
+</body>
+</html>

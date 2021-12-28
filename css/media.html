@@ -1,0 +1,41 @@
+<!--
+media:
+speech
+print
+screen
+
+320/330 	-	490/500  	- 750/760	-1000/1200 + 
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#aa{
+			width: 1000px;
+			height: 400px;
+			background-color: blueviolet;
+		}
+		@media screen and (max-width: 1000px){
+			#aa{
+				background-color: deepskyblue;
+				width: 800px;
+				display: none;
+			}
+		}
+		@media screen and (max-width: 800px){
+			#aa{
+				background-color: pink;
+				width: 500px;
+				display: block;
+			}
+		}
+	</style>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div id="aa"></div>
+
+</body>
+</html>
