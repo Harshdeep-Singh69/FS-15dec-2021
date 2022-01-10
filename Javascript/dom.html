@@ -1,0 +1,37 @@
+<!--
+DOM:
+D-document
+O-object
+M-model
+
+
+getElementById
+getElementsByClassName
+document.querySelector("")
+
+
+document.getElementById("id").addEventListener("click",thing)
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<p id="heading">hey</p>
+	<p id="secondHeading"></p>
+	<button onclick="abc()">click</button>
+
+
+	<script type="text/javascript">
+		
+				const a = document.getElementById("heading");
+				/*a.style.color = "red";*/
+				document.getElementById("secondHeading").innerHTML= a.innerHTML
+
+		
+	</script>
+</body>
+</html>
