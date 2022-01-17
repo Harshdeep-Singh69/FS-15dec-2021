@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+	<style type="text/css">
+		#aa{
+			width: 250px;
+			height: 250px;
+			background-color: blue;
+		}
+	</style>
+	<script type="text/javascript">
+		/*$(document).ready(function(){
+			$("#bb").click(function(){
+				$("#aa").fadeOut(3000);
+			})
+
+		})
+
+		$(document).ready(function(){
+			$("#ff").click(function(){
+				$("#aa").fadeIn();
+			})
+
+		})*/
+		$(document).ready(function(){
+			$("#bb").click(function(){
+				$("#aa").fadeToggle(5000);
+			})
+
+		})
+
+	</script>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<button id="bb">Click to fadeToggle</button>
+
+	<div id="aa"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#dropdown").change(function(){
+				document.getElementById('aa').innerHTML = "You love to eat " + document.getElementById('dropdown').value;
+			})
+		})
+	</script>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<select id="dropdown">
+		<option>apple</option>
+		<option>mango</option>
+		<option>banana</option>
+		<option>pineapple</option>
+		<option>strawberry</option>
+	</select>
+	<div id="aa"></div>
+</body>
+</html>
