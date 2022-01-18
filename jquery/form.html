@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#fName , #fAge').focus(function(){
+				$(this).css('background-color','yellow');
+			});
+			$('#fName , #fAge').blur(function(){
+				$(this).css('background-color','');
+			});
+		})
+	</script>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h1 >Name</h1>
+	<input id="fName" type="text" name="">
+	<h1 >Age</h1>
+	<input id="fAge" type="text" name="">
+
+
+</body>
+</html>

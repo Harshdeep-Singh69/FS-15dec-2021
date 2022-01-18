@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#styleButton').click(function(){
+				$('#content').css({'background-color' : 'orange' , 'color' : 'blue'});
+			});
+		})
+	</script>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		#content{
+			width: 400px;
+			height: 150px;
+			background-color: yellow;
+			border: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		Hello please change my style
+	</div>
+	<button id="styleButton">Click to add styles</button>
+
+</body>
+</html>
